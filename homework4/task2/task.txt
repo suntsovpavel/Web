@@ -1,0 +1,20 @@
+//Задача №2: создать БД, состоящую из одной таблицы (информация об одногруппниках) 
+//с четырьмя полями (добавить поле «Адрес»): id, name, age, address.
+// https://onecompiler.com/mysql/3zgnp5gzm
+
+-- create
+CREATE TABLE CLASSMATES (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age INT NOT NULL,
+  adress TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO CLASSMATES VALUES (0001, 'Arthur', 20, 'some adress');
+INSERT INTO CLASSMATES VALUES (0002, 'Mike', 22, 'some adress');
+INSERT INTO CLASSMATES VALUES (0003, 'Aria', 21, 'some adress');
+INSERT INTO CLASSMATES VALUES (0004, 'Max', 22, 'some adress');
+
+-- fetch 
+SELECT * FROM CLASSMATES WHERE age = '22';
