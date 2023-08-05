@@ -1,0 +1,4 @@
+Задача №1: сформировать массив с данными для блока «Опыт работы».
+Вывести данные массива в HTML-шаблоне.
+
+https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler
